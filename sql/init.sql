@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS registrar;
+USE registrar;
+
 CREATE TABLE IF NOT EXISTS departments (
 	dept_id int NOT NULL,
 	dept_name varchar(255) NOT NULL,
